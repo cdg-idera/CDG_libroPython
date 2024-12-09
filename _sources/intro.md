@@ -1,12 +1,25 @@
-# Bienvenido a un libro sobre python
+---
+jupytext:
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+
+```{code-cell} ipython3
+from IPython.display import Image
+Image(filename='imagenes/logo.png', width=336, height=48)
+```
+
+# Bienvenido al libro Tratamiento y Visualización de la IG con Python
 
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+Con el objetivo de disminuir la brecha digital geoespacial compilaremos en este libro digital, distintos capítulos que permitirán realizar un estudio gradual de la tecnología necesaria para abordar algoritmos en python que nos permitan aplicar técnicas de IA a información geoespacial.
 
-Check out the content pages bundled with this sample book to see more.
+Este libro interactivo digital está siendo desarrollado con [Jupyter Book documentation](https://jupyterbook.org) y tendrá ISBN tramitado por IDERA-IGN.
 
 ```{tableofcontents}
 ```
